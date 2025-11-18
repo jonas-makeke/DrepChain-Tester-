@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject",
+            "contentUrl": "CIP119:contentUrl",
+            "sha256": "CIP119:sha256"
+          }
+        },
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Makeke Drep Tester",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "",
+      "sha256": "c9108fc26adfc48dc47632206235fb27d6255a5520e5f1fa0fceaa41c9a0aa28"
+    },
+    "motivations": "I want to become a DRep to actively contribute to building a governance model that is genuinely decentralized, responsible, and forward looking. Cardano offers a unique framework where the community can directly influence protocol evolution and the funding of impactful projects. Being a DRep is an opportunity for me to apply my skills, ethics, and vision to support an ecosystem I believe is one of the most rigorous and promising in the blockchain space.\n\nI believe that governance is not just a technical mechanismit is a human process, grounded in transparency, education, and accountability. My goal is to help ADA holders make their voices heard by providing clear analyses, accessible explanations, and reliable representation.",
+    "objectives": "I aim to strengthen Cardano’s on -chain governance by promoting clarity, fairness, and accessibility in all decision making processes. My goal is to ensure that every participant large or small has the opportunity to understand, evaluate, and engage with governance proposals.",
+    "paymentAddress": "addr_test1qpdz3ahneuqk8kp6ntdwfdmjzfw8xd3lnvnmw6mldjry5lfjt6fmn6anrtuzx8f5479h8ldt9gr9qx6rdxrngt3x5qas2gr42j",
+    "qualifications": "1. Analytical and Evaluation Skills\n\nExperience reviewing complex proposals, assessing risks, and comparing alternative strategies.\n\nStrong ability to interpret technical content, identify key decision points, and provide structured recommendations.\n\n2. Governance and Decentralization Knowledge\n\nSolid understanding of Cardano’s governance framework, including CIPs, treasury mechanisms, and the principles behind Voltaire.\n\nFamiliarity with decentralized decision-making models and blockchain governance best practices.\n\n3. Communication and Transparency\n\nSkilled in summarizing complex topics in a clear, accessible way.\n\nAble to communicate decisions, reasoning, and analysis openly to help delegators stay informed.\n\n4. Project and Stakeholder Management\n\nExperience coordinating with multiple actors, aligning objectives, and ensuring accountability in project execution.\n\nComfortable evaluating deliverables, timelines, and expected outcomes.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "X Accunt",
+        "uri": "https://x.com/jonas_makeke/photo"
+      }
+    ]
+  }
+}
